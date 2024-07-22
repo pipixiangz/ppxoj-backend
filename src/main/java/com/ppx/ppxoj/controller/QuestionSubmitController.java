@@ -32,8 +32,9 @@ import javax.servlet.http.HttpServletRequest;
  *
  */
 @RestController
-@RequestMapping("/question_submit")
+//@RequestMapping("/question_submit")
 @Slf4j
+@Deprecated // 该接口已经废弃
 public class QuestionSubmitController {
 
     @Resource
@@ -48,7 +49,7 @@ public class QuestionSubmitController {
      * @param questionSubmitAddRequest
      * @param request
      * @return 提交记录的 id
-     */
+     *//*
     @PostMapping("/")
     public BaseResponse<Long> doQuestionSubmit(@RequestBody QuestionSubmitAddRequest questionSubmitAddRequest,
                                                HttpServletRequest request) {
@@ -61,13 +62,13 @@ public class QuestionSubmitController {
         return ResultUtils.success(questionSubmitId);
     }
 
-    /**
+    *//**
      * 分页获取题目提交列表（除了管理员外，普通用户只能看到非答案、提交代码等公开信息）
      *
      * @param questionSubmitQueryRequest
      * @param request
      * @return
-     */
+     *//*
     @PostMapping("/list/page")
     public BaseResponse<Page<QuestionSubmitVO>> listQuestionSubmitByPage(@RequestBody QuestionSubmitQueryRequest questionSubmitQueryRequest,
                                                                          HttpServletRequest request) {
@@ -79,7 +80,7 @@ public class QuestionSubmitController {
         final User loginUser = userService.getLoginUser(request);
         // 返回脱敏信息
         return ResultUtils.success(questionSubmitService.getQuestionSubmitVOPage(questionSubmitPage, loginUser));
-    }
+    }*/
 
 
 }
