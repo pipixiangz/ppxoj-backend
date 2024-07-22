@@ -1,8 +1,8 @@
 package com.ppx.ppxoj.judge.codesandbox;
 
-import com.ppx.ppxoj.judge.codesandbox.model.impl.ExampleCodeSandbox;
-import com.ppx.ppxoj.judge.codesandbox.model.impl.RemoteCodeSandbox;
-import com.ppx.ppxoj.judge.codesandbox.model.impl.ThirdPartyCodeSandbox;
+import com.ppx.ppxoj.judge.codesandbox.impl.ExampleCodeSandbox;
+import com.ppx.ppxoj.judge.codesandbox.impl.RemoteCodeSandbox;
+import com.ppx.ppxoj.judge.codesandbox.impl.ThirdPartyCodeSandbox;
 
 /**
  * 代码沙箱工厂（根据字符串参数创建指定的代码沙箱实例）

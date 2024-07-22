@@ -1,7 +1,7 @@
 package com.ppx.ppxoj.judge.strategy;
 
 
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 
 /**
  * 判题策略

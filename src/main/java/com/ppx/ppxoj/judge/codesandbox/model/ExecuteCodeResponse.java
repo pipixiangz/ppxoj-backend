@@ -1,6 +1,5 @@
 package com.ppx.ppxoj.judge.codesandbox.model;
 
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

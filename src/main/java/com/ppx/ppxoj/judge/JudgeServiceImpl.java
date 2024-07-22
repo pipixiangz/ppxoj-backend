@@ -10,7 +10,7 @@ import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeResponse;
 import com.ppx.ppxoj.judge.strategy.JudgeContext;
 import com.ppx.ppxoj.model.dto.question.JudgeCase;
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 import com.ppx.ppxoj.model.entity.Question;
 import com.ppx.ppxoj.model.entity.QuestionSubmit;
 import com.ppx.ppxoj.model.enums.QuestionSubmitStatusEnum;

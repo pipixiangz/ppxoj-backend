@@ -1,9 +1,9 @@
-package com.ppx.ppxoj.judge.codesandbox.model.impl;
+package com.ppx.ppxoj.judge.codesandbox.impl;
 
 import com.ppx.ppxoj.judge.codesandbox.CodeSandbox;
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeResponse;
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 import com.ppx.ppxoj.model.enums.JudgeInfoMessageEnum;
 import com.ppx.ppxoj.model.enums.QuestionSubmitStatusEnum;
 import lombok.extern.slf4j.Slf4j;

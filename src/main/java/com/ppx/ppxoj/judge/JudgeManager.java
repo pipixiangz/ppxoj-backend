@@ -4,7 +4,7 @@ import com.ppx.ppxoj.judge.strategy.DefaultJudgeStrategy;
 import com.ppx.ppxoj.judge.strategy.JavaLanguageJudgeStrategy;
 import com.ppx.ppxoj.judge.strategy.JudgeContext;
 import com.ppx.ppxoj.judge.strategy.JudgeStrategy;
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 import com.ppx.ppxoj.model.entity.QuestionSubmit;
 import org.springframework.stereotype.Service;
 

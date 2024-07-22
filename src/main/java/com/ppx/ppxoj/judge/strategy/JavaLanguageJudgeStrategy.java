@@ -3,7 +3,7 @@ package com.ppx.ppxoj.judge.strategy;
 import cn.hutool.json.JSONUtil;
 import com.ppx.ppxoj.model.dto.question.JudgeCase;
 import com.ppx.ppxoj.model.dto.question.JudgeConfig;
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 import com.ppx.ppxoj.model.entity.Question;
 import com.ppx.ppxoj.model.enums.JudgeInfoMessageEnum;
 

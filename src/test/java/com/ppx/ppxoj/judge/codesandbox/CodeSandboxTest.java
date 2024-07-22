@@ -2,8 +2,7 @@ package com.ppx.ppxoj.judge.codesandbox;
 
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeResponse;
-import com.ppx.ppxoj.judge.codesandbox.model.impl.ExampleCodeSandbox;
-import com.ppx.ppxoj.judge.codesandbox.model.impl.RemoteCodeSandbox;
+import com.ppx.ppxoj.judge.codesandbox.impl.RemoteCodeSandbox;
 import com.ppx.ppxoj.model.enums.QuestionSubmitLanguageEnum;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,7 +13,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class CodeSandboxTest {
 

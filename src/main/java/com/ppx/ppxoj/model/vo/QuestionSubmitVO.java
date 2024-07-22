@@ -1,7 +1,7 @@
 package com.ppx.ppxoj.model.vo;
 
 import cn.hutool.json.JSONUtil;
-import com.ppx.ppxoj.model.dto.questionsubmit.JudgeInfo;
+import com.ppx.ppxoj.judge.codesandbox.model.JudgeInfo;
 import com.ppx.ppxoj.model.entity.QuestionSubmit;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;

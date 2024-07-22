@@ -1,4 +1,4 @@
-package com.ppx.ppxoj.judge.codesandbox.model.impl;
+package com.ppx.ppxoj.judge.codesandbox.impl;
 
 import com.ppx.ppxoj.judge.codesandbox.CodeSandbox;
 import com.ppx.ppxoj.judge.codesandbox.model.ExecuteCodeRequest;
