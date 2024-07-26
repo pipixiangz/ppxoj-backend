@@ -1,11 +1,13 @@
 package com.ppx.ppxoj.model.dto.question;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 题目用例
  */
 @Data
-public class JudgeCase {
+public class JudgeCase implements Serializable {
 
     /**
      * 输入用例

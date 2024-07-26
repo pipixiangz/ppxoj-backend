@@ -1,11 +1,13 @@
 package com.ppx.ppxoj.model.dto.question;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 题目配置
  */
 @Data
-public class JudgeConfig {
+public class JudgeConfig implements Serializable {
 
     /**
      * 时间限制（ms）
